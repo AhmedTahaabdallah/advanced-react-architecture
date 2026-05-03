@@ -1,0 +1,32 @@
+import axios from "axios";
+import React, { useEffect } from "react";
+import { useState } from "react";
+
+export const DataSourceOld = ({ getData = () => {}, resourceUrl, resourceName, children }) => {
+  const [resource, setResource] = useState(null);
+
+  useEffect(() => {
+    (async () => {
+      let data = null;
+      if (getData) data = await getData();
+      if (resourceUrl) {
+        const response = await axios.get(resourceUrl);
+        data = response.data;
+      }
+      if (data) setResource(data);
+    })();
+  }, [getData, resourceUrl]);
+
+  return (
+    <>
+      {
+        React.Children.map(children, (child) => {
+          if (React.isValidElement(child)) {
+            return React.cloneElement(child, { [resourceName]: resource });
+          }
+          return child;
+        })
+      }
+    </>
+  );
+};
