@@ -6,6 +6,6 @@ This repository contains practical implementations for:
 - Layout Components
 - Container Components
 - Reusable DataSource abstraction
-- Controlled & Uncontrolled Components
 - Component API design improvements
 - Scalable frontend architecture patterns
+- Controlled & Uncontrolled Components
