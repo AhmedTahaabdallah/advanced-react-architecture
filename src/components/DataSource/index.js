@@ -1,12 +1,12 @@
 import axios from "axios";
-import { BookInfo } from "./components/DataSource/book-info";
-import { DataSource } from "./components/DataSource/data-source";
-import { UserInfo } from "./components/DataSource/user-info";
-import { CurrentUserLoader } from "./components/DataSource/current-user-loader";
-import { UserLoader } from "./components/DataSource/user-loader";
-import { ResouceLoader } from "./components/DataSource/resource-loader";
-import { DataSourceWithProps } from "./components/DataSource/data-source-with-props";
-import { DataSourceOld } from "./components/DataSource/data-source-old";
+import { BookInfo } from "./book-info";
+import { DataSource } from "./data-source";
+import { UserInfo } from "./user-info";
+import { CurrentUserLoader } from "./current-user-loader";
+import { UserLoader } from "./user-loader";
+import { ResouceLoader } from "./resource-loader";
+import { DataSourceWithProps } from "./data-source-with-props";
+import { DataSourceOld } from "./data-source-old";
 
 const fetchData = async (url) => {
   const response = await axios.get(url);
