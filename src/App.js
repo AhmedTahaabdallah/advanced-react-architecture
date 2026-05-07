@@ -2,14 +2,16 @@
 // import AppControlledComponents from "./components/patterns/controlled-components";
 // import AppHigherOrderComponents from "./components/patterns/higher-order-components";
 // import AppCustomHooks from "./components/patterns/custom-hooks";
-import AppFunctionalProgrammingComponents from "./components/patterns/functional-programming-components";
+// import AppFunctionalProgrammingComponents from "./components/patterns/functional-programming-components";
+import AppCompoundComponents from "./components/patterns/Compound-Components";
 
 function App() {
   // return <AppDataSource/>;
   // return <AppControlledComponents/>;
   // return <AppHigherOrderComponents/>;
   // return <AppCustomHooks/>;
-  return <AppFunctionalProgrammingComponents/>;
+  // return <AppFunctionalProgrammingComponents/>;
+  return <AppCompoundComponents/>;
 }
 
 export default App;

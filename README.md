@@ -12,6 +12,7 @@ This repository contains practical implementations and experiments for:
 * Reusable DataSource abstractions
 * Component API design improvements
 * Functional Programming Components
+* Compound Components
 * Separation of concerns patterns
 * Scalable frontend architecture patterns
 
