@@ -11,6 +11,7 @@ This repository contains practical implementations and experiments for:
 * Custom Hooks
 * Reusable DataSource abstractions
 * Component API design improvements
+* Functional Programming Components
 * Separation of concerns patterns
 * Scalable frontend architecture patterns
 
