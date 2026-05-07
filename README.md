@@ -13,6 +13,7 @@ This repository contains practical implementations and experiments for:
 * Component API design improvements
 * Functional Programming Components
 * Compound Components
+* Observer Pattern
 * Separation of concerns patterns
 * Scalable frontend architecture patterns
 
