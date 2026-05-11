@@ -4,7 +4,8 @@
 // import AppCustomHooks from "./components/patterns/custom-hooks";
 // import AppFunctionalProgrammingComponents from "./components/patterns/functional-programming-components";
 // import AppCompoundComponents from "./components/patterns/Compound-Components";
-import AppObserverPattern from "./components/patterns/observer-pattern";
+// import AppObserverPattern from "./components/patterns/observer-pattern";
+import AppAdvancedConceptsAndHooks from "./components/patterns/advanced-concepts-and-hooks";
 
 function App() {
   // return <AppDataSource/>;
@@ -13,7 +14,8 @@ function App() {
   // return <AppCustomHooks/>;
   // return <AppFunctionalProgrammingComponents/>;
   // return <AppCompoundComponents/>;
-  return <AppObserverPattern/>;
+  // return <AppObserverPattern/>;
+  return <AppAdvancedConceptsAndHooks/>;
 }
 
 export default App;
