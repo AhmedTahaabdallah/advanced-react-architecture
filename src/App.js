@@ -7,7 +7,9 @@
 // import AppObserverPattern from "./components/patterns/observer-pattern";
 // import AppAdvancedConceptsAndHooks from "./components/patterns/advanced-concepts-and-hooks";
 
-import AppCleanCodeTips from "./components/patterns/element-prop";
+import AppStateManagementPatterns from "./components/patterns/state-management-patterns";
+
+// import AppCleanCodeTips from "./components/patterns/element-prop";
 
 function App() {
   // return <AppDataSource/>;
@@ -18,7 +20,8 @@ function App() {
   // return <AppCompoundComponents/>;
   // return <AppObserverPattern/>;
   // return <AppAdvancedConceptsAndHooks/>;
-  return <AppCleanCodeTips/>;
+  // return <AppCleanCodeTips/>;
+  return <AppStateManagementPatterns/>;
 }
 
 export default App;
