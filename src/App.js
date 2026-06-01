@@ -7,7 +7,7 @@
 // import AppObserverPattern from "./components/patterns/observer-pattern";
 // import AppAdvancedConceptsAndHooks from "./components/patterns/advanced-concepts-and-hooks";
 
-import AppDebouncing from "./components/performance-optimization/debouncing";
+// import AppDebouncing from "./components/performance-optimization/debouncing";
 // import AppThrottling from "./components/performance-optimization/throttling";
 
 // import AppStateManagementPatterns from "./components/patterns/state-management-patterns";
@@ -15,6 +15,8 @@ import AppDebouncing from "./components/performance-optimization/debouncing";
 // import AppUseCallback from "./components/performance-optimization/use-callback";
 
 // import AppCleanCodeTips from "./components/patterns/element-prop";
+
+import AppDesignSystems from "./components/design-systems";
 
 function App() {
   // return <AppDataSource/>;
@@ -30,7 +32,8 @@ function App() {
   // return <AppLazyLoading/>;
   // return <AppUseCallback/>;
   // return <AppThrottling/>;
-  return <AppDebouncing/>;
+  // return <AppDebouncing/>;
+  return <AppDesignSystems/>;
 }
 
 export default App;
